@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flor 3D | Experiencia Interactiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Pantalla de inicio solo con el botón -->
+    <div id="start-screen" class="start-screen">
+        <div class="start-content">
+            <!-- Botón con brillo rojo y rosado -->
+            <button id="start-btn" class="start-btn">Presioname ❤️‍🩹</button>
+        </div>
+    </div>
+
+    <!-- Lienzo 3D -->
+    <canvas id="canvas"></canvas>
+
+    <!-- Reproductor de Audio -->
+    <audio id="bg-music" loop preload="auto">
+        <source src="musica/Amor.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- UI Central -->
+    <div class="ui-container">
+        <div class="title-box">
+            ❤️‍🩹Te Amo❤️‍🩹
+        </div>
+    </div>
+
+    <!-- Botón inferior izquierdo -->
+    <button id="pause-btn" class="pause-btn">
+        <span class="icon">II</span> PAUSAR
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
